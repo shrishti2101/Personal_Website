@@ -16,7 +16,6 @@ function Project (){
          <h2>{project.name}</h2>
          <p>{project.description}</p>
          </div>
-         
      </div>
     ))}
         </div>
