@@ -8,16 +8,12 @@
         gap: 15px;
        
     }
-        
+
 }
 .education.and.exp {
         line-height: 2;
     padding: 20px 0;
-        }
-.education-details {
-    padding: 20px 0;
-}
-
+            
 li{     position: relative;
     padding: 0 20px 0 60px;
     margin: 0 0 50px;
@@ -56,6 +52,11 @@ li{     position: relative;
         }
     }
 }
+        }
+.education-details {
+    padding: 20px 0;
+}
+
 @media screen and (max-width: 768px){
     .details{
         flex-direction: column;
