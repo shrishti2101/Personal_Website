@@ -2,11 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Moon+Dance&display=swap');
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
   padding: 2rem;
-  /* text-align: justify; */
+  text-align: justify;
+}
+
+h1{
+  font-family:"MedievalSharp",cursive;
+  font-weight:bold;
+  font-size: calc(2em - 0.5em)!important;
+}
+
+h3{
+  font-size: calc(1.7em - 0.7em)!important;
+}
+body{
+  font-family: "MedievalSharp",cursive;
+  /* font-size:18px; */
+}
+
+a{
+  text-decoration: none;
+  color:#A8724E;
+  
 }
 /* 
 .logo {
