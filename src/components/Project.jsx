@@ -1,6 +1,5 @@
-
 import './Project.scss';
-import Data from '../projects.json'
+import Data  from '../projects.json'
 function Project (){
     
     return (
@@ -10,10 +9,19 @@ function Project (){
          { Data.map((project)=>(       
          <div className="project-card" key={project.id}>
          <div className="project-img">
-         <img src={project.url} alt="" />
+         <iframe src={project.image} height="100%" width="100%" scrolling="no"></iframe>
          </div>
          <div className="project-details">
          <h2>{project.name}</h2>
+         
+            {
+               project.skills.map((skills)=>(
+                <span>
+                    {skills}
+                </span>
+               ))
+            }
+            
          <p>{project.description}</p>
          </div>
      </div>

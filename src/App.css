@@ -69,3 +69,9 @@ a{
 .read-the-docs {
   color: #888;
 } */
+@media only screen and (min-width :1200px){
+  #root{
+      margin:0 250px;
+      line-height:2;
+  }
+}
