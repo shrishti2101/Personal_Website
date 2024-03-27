@@ -1,4 +1,4 @@
-// import {project} from '../assets/'
+
 import './Project.scss';
 import Data from '../projects.json'
 function Project (){
