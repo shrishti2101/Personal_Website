@@ -1,7 +1,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    // margin: 0 auto;
     .nav-brand {
         display: flex;
         justify-content: space-between;
@@ -18,8 +18,7 @@ nav{
     }
     .nav-menu {
         display: flex;
-        margin: 0 auto;
-        width: 100vh;
+        
         align-items: center;
         .navlinks {
             display: flex;
@@ -31,7 +30,8 @@ nav{
                 right: 0;
                 left: 0;
                 justify-content: space-between;
-            
+                margin: 0 auto !important;
+                width: 100vw;
             }
         }
         
@@ -46,9 +46,12 @@ nav{
             position: absolute;
             right: 0;
         }
-        &.open .logo{
+        &.open.logo{
             position: absolute;
         }
+        
+            
+        
     }
         .navlinks{
             display: none !important;
