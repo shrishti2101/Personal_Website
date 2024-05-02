@@ -23,10 +23,10 @@ function Home() {
                 loop/>
                 </span></h1>
             <p>As a recent graduate, I'm deeply passionate about web development and committed to continuously learning and improving my skills. I have a strong desire to stay updated with the latest technologies and industry trends.</p>
-            <div className='social-icons'>
+            {/* <div className='social-icons'>
                <span><a href="https://github.com/shrishti2101"><i><FaGithub /></i></a></span> 
                <span><a href="https://www.linkedin.com/in/shrishti-jain21/"><i><FaLinkedin /></i></a></span> 
-            </div>
+            </div> */}
             <Link to='/about'>Know More</Link>
             
         </div>
