@@ -66,15 +66,15 @@ function About(){
                                </div>
                                 <span>May 2023 - Oct 2023</span>
                                 <h3>UI Developer Trainee <span> - Sarvika Technologies</span></h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ducimus iure ea quasi expedita maiores aliquid dolores eum enim sit porro, ullam placeat ex voluptatibus ipsum cum dolore, facere iusto.</p>
+                                <p>Work as UI Developer Trainee. Have worked on responsive web designs andlive projects of company which comprises of form designing and e-commercewebsite designs.</p>
                             </li>
                             <li>
                                <div className='icon'>
                                 <i><MdWork/></i>
                                </div>
-                                <span>May 2023 - Oct 2023</span>
-                                <h3>UI Developer Trainee <span> - Sarvika Technologies</span></h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ducimus iure ea quasi expedita maiores aliquid dolores eum enim sit porro, ullam placeat ex voluptatibus ipsum cum dolore, facere iusto.</p>
+                                <span>June 2022 - July 2022</span>
+                                <h3>PowerApps Intern <span> - Celebal Technologies Pvt Ltd</span></h3>
+                                <p></p>
                             </li>
                         </ul>
                     </div>
