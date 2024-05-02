@@ -1,5 +1,6 @@
 import './Project.scss';
 import Data  from '../projects.json'
+import { FaCode,FaGlobe } from "react-icons/fa";
 function Project (){
     
     return (
@@ -21,8 +22,11 @@ function Project (){
                 </span>
                ))
             }
-            
-         <p>{project.description}</p>
+            <div className="project-links">
+                <button><a href={project.github} target="_blank" rel="noreferrer"><i><FaCode/></i></a></button>
+                <button><a href={project.url} target="_blank" rel="noreferrer"><i><FaGlobe/></i></a></button>
+            </div>
+         {/* <p>{project.description}</p> */}
          </div>
      </div>
     ))}
